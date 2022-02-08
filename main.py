@@ -8,7 +8,7 @@ def helloworld():
 # Test for python post
 @app.route("/get_data",methods = ['POST'])
 def getdata():
-    data = request.form['name']
+    data = request.form['data']
     return data
 
 
